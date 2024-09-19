@@ -10,8 +10,8 @@ mongoose.connect(HALL_URI)
         console.log('Connected to MongoDB');
 
         // start the server
-        app.listen(3001, ()=>{
-            console.log('Server is running on port 3001: http://localhost:3001');
+        app.listen(3004, ()=>{
+            console.log('Server is running on port 3004: http://localhost:3004');
         })
     })
     .catch((err)=>{
